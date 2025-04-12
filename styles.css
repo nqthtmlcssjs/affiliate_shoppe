@@ -42,20 +42,20 @@
 }
 
 /* ============ Reposive =========== */
- @media screen and  (max-width: 1200px)
+ @media screen and  (max-width: 768px)
  {
     :root
     {
-        --big-font-size: ;
-        --h1-font-size: ;
-        --h2-font-size: ;
-        --h3-font-size: ;
-        --h4-font-size: ;
-        --large-font-size: ;
-        --normal-font-size: ;
-        --small-font-size: ;
-        --smaller-font-size: ;
-        --tiny-font-size: ;
+        --big-font-size: 2rem;
+        --h1-font-size: 1.75rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --h4-font-size: 1.125rem;
+        --large-font-size: 1rem;
+        --normal-font-size: 0.875rem;
+        --small-font-size: 0.75rem;
+        --smaller-font-size: 0.65rem;
+        --tiny-font-size: 0.5rem;
     }
 }
 
@@ -107,6 +107,7 @@ button,textarea,input
 }
 /* ===============  Reusable css classes ================ */
 .container{
+    width: 100%;
     max-width: 1320px;
     margin-inline: auto;
     padding-inline: .75rem;
